@@ -118,12 +118,18 @@ section {
 }
 
 footer {
-  background: #393939;
+  background: #39393980;
   color: #ded4c3;
   position: relative;
   bottom: 0;
+  font-size: 14px;
   width: 100%;
   position: fixed;
+}
+
+footer p {
+  padding: 5px;
+  margin: 0;
 }
 
 
