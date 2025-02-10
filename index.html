@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am currently a second-year student at KTH, studying Master of Science in Information Technology. As a
+      passionate developer, I am deeply interested in designing and developing systems and databases that optimize
+      user
+      experience. My focus is on building reliable, efficient, and user-friendly solutions.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="d-flex pt-4 justify-content-center">
+      <div class="projects-container">
+
+        <!-- Start Risk Management System -->
+        <div class="project-card">
+          <div class="card-content">
+            <img src="images/1.jpeg" alt="Project 1">
+            <div class="card-body">
+              <h3>Risk Management System</h3>
+              <p class="description">Developed from scratch. The system allows users to manage risks by adding and
+                editing risk data, including causes, consequences, and actions. Each analysis has an owner and
+                participants, with assigned tasks to reduce overall risk. Built-in statistics analyze risk data over
+                time.</p>
+            </div>
+            <div class="card-footer">
+              <p class="tech-used"><strong>Technologies:</strong> C# | Blazor | MySQL </p>
+              <p class="development-location"><strong>Developed at:</strong> Work</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Risk Management System -->
+
+        <!-- Start Issue Tracking System -->
+        <div class="project-card">
+          <div class="card-content">
+            <img src="images/2.jpeg" alt="Project 2">
+            <div class="card-body">
+              <h3>Issue Tracking System</h3>
+              <p class="description">Collaborated in a team to build an issue tracking system, which integrates Windows
+                authentication, logging, and notifications. This system allows users to track issues, assign
+                responsibilities, and manage work items with specific owners.</p>
+            </div>
+            <div class="card-footer">
+              <p class="tech-used"><strong>Technologies:</strong> VB | ASP.NET | MySQL </p>
+              <p class="development-location"><strong>Developed at:</strong> Work</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Issue Tracking System -->
+
+        <!-- Start Good Music School -->
+        <div class="project-card">
+          <div class="card-content">
+            <img src="images/3.jpeg" alt="Project 3">
+            <div class="card-body">
+              <h3>Good Music School<a href="https://github.com/itsnaser/IV1351-Data-Storage-Paradigms"
+                  target="_blank"><i class="fab fa-github"></i></a></h3>
+              <p class="description">Designed and implemented a PostgreSQL database to manage various aspects of a music
+                school, including lesson bookings, instrument rentals, and discount management based on certain
+                requirements.</p>
+            </div>
+            <div class="card-footer">
+              <p class="tech-used"><strong>Technologies:</strong> PostgreSQL | Astah | C#</p>
+              <p class="development-location"><strong>Developed at:</strong> KTH</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Good Music School -->
+
+        <!-- Start Pong MIPS -->
+        <div class="project-card">
+          <div class="card-content">
+            <img src="images/4.jpeg" alt="Project 4">
+            <div class="card-body">
+              <h3>Pong Game on PIC32<a href="https://github.com/itsnaser/IS1200-Pong" target="_blank"><i
+                    class="fab fa-github"></i></a></h3>
+              <p class="description">Pong game on a PIC32-based Uno32 board using the Basic I/O Shield’s OLED display.
+                The game features smooth ball and paddle movement, realistic bounces, and win detection.</p>
+            </div>
+            <div class="card-footer">
+              <p class="tech-used"><strong>Technologies:</strong> C | Assembly </p>
+              <p class="development-location"><strong>Developed at:</strong> KTH</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Pong MIPS -->
+
+        <!-- Start STHLM Tunnelbana -->
+        <div class="project-card">
+          <div class="card-content">
+            <img src="images/5.jpeg" alt="Project 5">
+            <div class="card-body">
+              <h3>Tunnelbana Simulation<a href="https://github.com/itsnaser/DA2005-INDU" target="_blank"><i
+                    class="fab fa-github"></i></a></h3>
+              <p class="description">Python program to simulate trains running back and forth on different lines,
+                similar to a tunnelbana system. The simulation uses a discrete, turn-based model where stations are one
+                unit of time apart. In each stage (unit of time), a train either moves to the next station or stays at
+                its current station (if delayed). The map of train stations is represented as a graph, where nodes are
+                stations, and edges represent the tracks connecting them.</p>
+            </div>
+            <div class="card-footer">
+              <p class="tech-used"><strong>Technologies:</strong> Python </p>
+              <p class="development-location"><strong>Developed at:</strong> Stockholm University</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Pong MIPS -->
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="text-center">Contact Me</h2>
+    <p class="text-center">Email: me@naser.se</p>
+    <div class="text-center contact-icons">
+      <a target="_blank" href="https://github.com/itsnaser"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 naser.se</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
